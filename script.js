@@ -1,8 +1,6 @@
-document.getElementById("headsChoice").onclick = headsChoice;
-document.getElementById("tailsChoice").onclick = tailsChoice;
-
 var heads = 0;
 var tails = 0;
+
 function toss() {
     x = (Math.floor(Math.random() * 2) == 0);
     if(x){
@@ -15,6 +13,15 @@ function toss() {
 function flip(coin) {
     document.getElementById("result").innerHTML = coin;
 }
+
+function headsChoice() {
+
+}
+
+function tailsChoice() {
+
+}
+
 
 /*
 
