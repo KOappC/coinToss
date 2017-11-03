@@ -1,3 +1,5 @@
+document.getElementById('click').onclick = click;
+
 var heads = 0;
 var tails = 0;
 function click() {
