@@ -1,8 +1,8 @@
-document.getElementById('click').onclick = click;
+document.getElementById('toss').onclick = toss;
 
 var heads = 0;
 var tails = 0;
-function click() {
+function toss() {
     x = (Math.floor(Math.random() * 2) == 0);
     if(x){
         flip("heads");
