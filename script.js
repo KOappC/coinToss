@@ -44,13 +44,3 @@ function totalFloops() {
     floops += 1;
     document.getElementById("totalFloops").innerHTML = floops;
 }
-
-console.log(correct);
-
-/*
-
-    Need to:
-
-        1.)
-
-*/
